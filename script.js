@@ -1,8 +1,9 @@
 	let c= document.querySelector(".inpu");
+      console.log(c.innerText);
     let d= document.querySelector(".input");
-function getFormvalue() {
+   function getFormvalue() {
     //Write your code here
 
-	alert(c.innerText + d.innerText);
+	alert( c.value+" "+ d.value);
 
 }
